@@ -17,7 +17,8 @@
   - SGD
   - Adam
 - Here is an example CLI command to train the model:
-poetry run python birds_species_classification/main.py -t \<path to train folder> -v \<path to validation folder> -te <path to test folder> -c \<path to birds.csv file> -n resnet18 -m birds_species_classification/saved_models -o adam -p birds_species_classification/save_plots -e 5
+
+`poetry run python birds_species_classification/main.py -t <path to train folder> -v <path to validation folder> -te <path to test folder> -c <path to birds.csv file> -n resnet18 -m birds_species_classification/saved_models -o adam -p birds_species_classification/save_plots -e 5`
 
 - Training vs Validation accuracy for Resnet18 with Adam opitmizer
 ![Resnet18 trained with ADAM optimizer](birds_species_classification/save_plots/adam_5_resnet18.png)
