@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "birds-species-classification"
+version = "0.1.0"
+description = ""
+authors = ["Abhash Sinha <abhash_sinha@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "birds_species_classification"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.0.0"
+torchvision = "^0.15.1"
+pillow = "^9.5.0"
+pandas = "^2.0.0"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
